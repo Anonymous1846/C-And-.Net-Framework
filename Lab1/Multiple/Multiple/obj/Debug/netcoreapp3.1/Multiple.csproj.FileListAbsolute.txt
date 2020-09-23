@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\bin\Debug\netcoreapp3.1\Multiple.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.genruntimeconfig.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Multiple\Multiple\obj\Debug\netcoreapp3.1\Multiple.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\bin\Debug\netcoreapp3.1\Largest_Smallest.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Largest_Smallest\Largest_Smallest\obj\Debug\netcoreapp3.1\Largest_Smallest.genruntimeconfig.cache

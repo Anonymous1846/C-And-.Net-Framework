@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\bin\Debug\netcoreapp3.1\Question10.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Question10\Question10\obj\Debug\netcoreapp3.1\Question10.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\bin\Debug\netcoreapp3.1\Question8.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Lab2\Question8\obj\Debug\netcoreapp3.1\Question8.genruntimeconfig.cache

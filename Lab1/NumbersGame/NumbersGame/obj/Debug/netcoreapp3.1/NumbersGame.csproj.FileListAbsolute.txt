@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.exe
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.dll
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\bin\Debug\netcoreapp3.1\NumbersGame.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.dll
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\NumbersGame\NumbersGame\obj\Debug\netcoreapp3.1\NumbersGame.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\bin\Debug\netcoreapp3.1\Question9.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Question9\Question9\obj\Debug\netcoreapp3.1\Question9.genruntimeconfig.cache

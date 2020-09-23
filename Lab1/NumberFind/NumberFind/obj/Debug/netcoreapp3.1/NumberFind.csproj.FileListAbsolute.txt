@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.exe
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.dll
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\bin\Debug\netcoreapp3.1\NumberFind.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.dll
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.genruntimeconfig.cache
+C:\Users\USER\Documents\Workspace\C # .Net\NumberFind\NumberFind\obj\Debug\netcoreapp3.1\NumberFind.csprojAssemblyReference.cache

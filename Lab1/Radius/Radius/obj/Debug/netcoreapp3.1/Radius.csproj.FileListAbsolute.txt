@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\bin\Debug\netcoreapp3.1\Radius.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.dll
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Radius\Radius\obj\Debug\netcoreapp3.1\Radius.genruntimeconfig.cache
