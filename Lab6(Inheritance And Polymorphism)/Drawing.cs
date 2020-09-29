@@ -13,7 +13,12 @@ namespace Lab6_Inheritance_And_Polymorphism_
     }
     class Line : Drawing
     {
-        public override void draw()
+        /*public override void draw()
+        {
+            Console.WriteLine("Draw Line");
+            base.draw();
+        }
+       */ public new void draw()
         {
             Console.WriteLine("Draw Line");
             base.draw();
@@ -22,7 +27,12 @@ namespace Lab6_Inheritance_And_Polymorphism_
     }
     class Circle : Drawing
     {
-        public override void draw()
+        /*public override void draw()
+        {
+            Console.WriteLine("Draw Circle");
+            base.draw();//Calling the base class method (Optional)
+        }
+       */public new void draw()
         {
             Console.WriteLine("Draw Circle");
             base.draw();
@@ -30,12 +40,16 @@ namespace Lab6_Inheritance_And_Polymorphism_
     }
     class Square : Drawing
     {
-        public override void draw()
+       /* public override void draw()
         {
             Console.WriteLine("Draw Square");
             base.draw();
         }
-
+       */ public new void draw()
+        {
+            Console.WriteLine("Draw Square");
+            base.draw();
+        }
     }
    
 }

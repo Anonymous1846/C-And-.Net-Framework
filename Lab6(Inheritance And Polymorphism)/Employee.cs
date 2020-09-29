@@ -14,55 +14,60 @@ namespace Lab6_Inheritance_And_Polymorphism_
         {
             base_salary = 0.0;
         }
-        
+        //The Belo Ctr is used to set the Base Salary for Both Salaried Employees and Salaried Commisioned Ones
         public Employee(double salary)
         {
             base_salary = salary;
         }
-        
+        //Virtual Function to calculate the salary ,Overriden by Derived Classes
         public virtual double calculateSalary()
         {
             return base_salary;
         }
         public void testTheService()
         {
-            Console.WriteLine("*******************Welcome To Fight Club Enterprise Limited**********************");
+            //The Function is used to test the service called in the main method !
+            Console.WriteLine("*******************Welcome To Fight Club Enterprise Limited Employee Management System**********************");
             Console.WriteLine("Please Enter Your Name !");
             String name = Console.ReadLine();
-            Console.WriteLine($"Hello {name},Are You A \n1)Salary Employee\n2)Hourly Employee\n3)Commisioned Employye\n4)Salary Commisioned Employee");
+            Console.WriteLine($"Hello {name},Are You A \n1)Salary Employee\n2)Hourly Employee\n3)Commisioned Employee\n4)Salary Commisioned Employee");
             int option = int.Parse(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    SalaryEmployee salaryEmployee = new SalaryEmployee(100000);
-                    Console.WriteLine($"Your Net Salary: {salaryEmployee.calculateSalary()}");
+                    SalaryEmployee salaryEmployee = new SalaryEmployee(10000);
+                    showInfo(salaryEmployee.calculateSalary());
                     break;
                 case 2:
                     HourlyRateEmployee hourlyRateEmployee = new HourlyRateEmployee(1000);
                     Console.WriteLine($"Number of Hours Worked ?");
                     double hours = double.Parse(Console.ReadLine());
                     hourlyRateEmployee.setTime(hours);
-                    Console.WriteLine($"Your Net Salary: {hourlyRateEmployee.calculateSalary()}");
+                    showInfo(hourlyRateEmployee.calculateSalary());
                     break;
                 case 3:
                     Console.WriteLine("Enter The Sales Made ");
                     CommisionedEmployee commisionedEmployee = new CommisionedEmployee();
                     double sales = double.Parse(Console.ReadLine());
                     commisionedEmployee.setSalesMade(sales);
-                    Console.WriteLine($"Your Net Salary: {commisionedEmployee.calculateSalary()}");
+                    showInfo(commisionedEmployee.calculateSalary());
                     break;
                 case 4:
                     SalaryCommisionedEmployee salarycommisionedEmployee = new SalaryCommisionedEmployee(10000);
                     Console.WriteLine("Enter The Sales Made ");
                     double sales_made = double.Parse(Console.ReadLine());
                     salarycommisionedEmployee.setSales(sales_made);
-                    Console.WriteLine($"Your Net Salary: {salarycommisionedEmployee.calculateSalary()}");
+                    showInfo(salarycommisionedEmployee.calculateSalary());
                     break;
                 default:
                     Console.WriteLine("Please Select A Valid Option !");
                     break;
 
             }
+        }
+        private void showInfo(double amount)
+        {
+            Console.WriteLine($"Your Net Salary is Rs.{amount}");
         }
     }
     class SalaryEmployee:Employee
@@ -71,8 +76,10 @@ namespace Lab6_Inheritance_And_Polymorphism_
         {
             base_salary = 0;
         }
+        //Ctr reference to base class ctr
         public SalaryEmployee(double base_sal):base(base_sal)
         {}
+        //overriden function to calculate the salary
         public override double calculateSalary()
         {
             return base_salary;
@@ -80,7 +87,9 @@ namespace Lab6_Inheritance_And_Polymorphism_
     }
     class HourlyRateEmployee: Employee
     {
+        //Hourly Rate Employees aren't paid a stable amount and are paid according to the time spend in the workspace
         double hours_worked;
+        //rate per hour is initialised in the ctr
         double rate_per_hour;
         public HourlyRateEmployee()
         {
@@ -98,11 +107,12 @@ namespace Lab6_Inheritance_And_Polymorphism_
         {
             hours_worked = time_spend;
         }
-        //Polymorphic function
+        //Polymorphic function 
         public override double calculateSalary()
         {
             double final_sal = hours_worked * rate_per_hour;
             double additional_amount_per_hour = 200.00;
+            //Terinery operator used so that workers who work for more than 40 gets extra pay
             double final_sal_after_change = ((hours_worked>40)?(final_sal+ ((hours_worked-40)* additional_amount_per_hour)) : final_sal);
             return final_sal_after_change;
         }
@@ -114,7 +124,7 @@ namespace Lab6_Inheritance_And_Polymorphism_
         {
             sales = 0.0;
         }
-        //Belo Function Not Applicable to this class but only used for The Derived class of the current class
+        //Below Ctr Not Applicable to this class but only used for The Derived class of the current class
         public CommisionedEmployee(double base_sal_for_commission):base(base_sal_for_commission)
         {/*Constructor call to base class Employee */}
         public  void setSalesMade(double sales_made)
@@ -134,16 +144,19 @@ namespace Lab6_Inheritance_And_Polymorphism_
         {
             sales = 0;
         }
-        public SalaryCommisionedEmployee(double sales_made) : base(80000)
+        public SalaryCommisionedEmployee(double base_sal) : base(base_sal)
         {
-            sales = sales_made;
+            //No need for body as it is set in the base class ctr itself
         }
+        //We already have the function to retrive sales in the base class so no need for extra function
         public void setSales(double sales_now)
         {
             base.setSalesMade(sales_now);
         }
+        //Since the company offered the SalariedCommisioned Employee a benefit of 10%increase in salary and percentage of sales
         public override double calculateSalary()
         {
+            //The Calculation is 10% of increase in base salary+ and percentage of +base salary
             double final_sal=((base_salary*0.1)+ (sales*0.75) + base_salary);
             return final_sal;
         }
