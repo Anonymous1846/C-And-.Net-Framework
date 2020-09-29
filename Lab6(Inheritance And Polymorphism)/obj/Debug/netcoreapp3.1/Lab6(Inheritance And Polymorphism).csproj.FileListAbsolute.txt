@@ -1,0 +1,13 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).exe
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).deps.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).runtimeconfig.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).runtimeconfig.dev.json
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).dll
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\bin\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).AssemblyInfo.cs
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).dll
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Lab6(Inheritance And Polymorphism)\obj\Debug\netcoreapp3.1\Lab6(Inheritance And Polymorphism).genruntimeconfig.cache
