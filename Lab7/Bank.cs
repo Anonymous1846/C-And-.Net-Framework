@@ -39,6 +39,7 @@ namespace Lab7
         {
             //This Function is used to Test The Class !
             int action;
+            //We initialized the Number of People in the bank as 10 People !
             Bank p1 = new Bank(10);
             do {
                 

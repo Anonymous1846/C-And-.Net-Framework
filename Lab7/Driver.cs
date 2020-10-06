@@ -27,6 +27,8 @@ namespace Lab7
                         matrix.Test();
                         break;
                     case 3:
+                        MyString Str = new MyString();
+                        Str.Test();
                         break;
                     case 4:
                         Time times = new Time();

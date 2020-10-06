@@ -55,21 +55,26 @@ namespace Lab7
         }
         public static Time operator +(Time time1 ,Time time2)
         {
-            
+            //Creating a New Time Object to store the added time 
             Time newTime = new Time();
+            //Adding the corresponding Hour, seconds,minutes 
             newTime.hours = time1.hours+time2.hours;
             newTime.minutes = time1.minutes + time2.minutes;
             newTime.seconds= time1.seconds+time2.seconds;
             if (newTime.seconds>=59)
             {
+                //If Seconds is greater than 59 then minutes is incremented 
+                //And the New seconds is remainder of seconds after division by 60
                 newTime.minutes++;
                 newTime.seconds =newTime.seconds%60;
                 if (newTime.minutes>=59)
                 {
+                    //If Minutes is greater than 60 then hour is increamented and new Minutes is remainder of minutes after divison by 60
                     newTime.hours++;
                     newTime.minutes = newTime.minutes % 60;
                     if (newTime.hours>=23)
                     {
+                        //If Hour is greater than 23 then is converted to 0 as per 24 hrs standards
                         newTime.hours = 0;
                     }
                 }
@@ -79,25 +84,31 @@ namespace Lab7
         }
         public String showTime()
         {
+            //String methods to show Time !
             return $"The Time is {hours}:{minutes}:{seconds} HRS";
         }
         public void Test()
         {
             Console.WriteLine("1)Increment Time \n2)Add Two Times\n3)Exit !");
+            //Choice whether the time is to be incremented or Added
             int choice = int.Parse(Console.ReadLine());
-            Time time = new Time(1,59,59);
-            Time time1 = new Time(1,1,1);
+            Time time = new Time(1,59,0);
+            Time time1 = new Time(1,0,1);
             Time time3 = time1 + time;
             switch (choice)
             {
                 case 1:
+                    Console.WriteLine($"Before Incrementing {time.showTime()}");
                     time++;
-                    Console.WriteLine(time.showTime());
+                    Console.WriteLine($"After Incrementing {time.showTime()}");
                     break;
                 case 2:
-                    Console.WriteLine(time3.showTime());
+                    Console.WriteLine($"Time Object One :{time.showTime()}");
+                    Console.WriteLine($"Time Object Two :{time1.showTime()}");
+                    Console.WriteLine($"After Adding Them :{time3.showTime()} ");
                     break;
                 default:
+                    Console.WriteLine("Invlaid !!!");
                     break;
                
             }
