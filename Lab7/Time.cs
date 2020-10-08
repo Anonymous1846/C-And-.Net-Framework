@@ -92,8 +92,8 @@ namespace Lab7
             Console.WriteLine("1)Increment Time \n2)Add Two Times\n3)Exit !");
             //Choice whether the time is to be incremented or Added
             int choice = int.Parse(Console.ReadLine());
-            Time time = new Time(4,59,59);
-            Time time1 = new Time(0,1,2);
+            Time time = new Time(10,59,59);
+            Time time1 = new Time(10,1,2);
             Time time3 = time1 + time;
             switch (choice)
             {
