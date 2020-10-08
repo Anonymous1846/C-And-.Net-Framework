@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Lab7
 {
@@ -55,31 +52,34 @@ namespace Lab7
         }
         public static Time operator +(Time time1 ,Time time2)
         {
+            int hr, sc, min;
             //Creating a New Time Object to store the added time 
             Time newTime = new Time();
             //Adding the corresponding Hour, seconds,minutes 
-            newTime.hours = time1.hours+time2.hours;
-            newTime.minutes = time1.minutes + time2.minutes;
-            newTime.seconds= time1.seconds+time2.seconds;
-            if (newTime.seconds>=59)
+            hr = time1.hours+time2.hours;
+            min = time1.minutes + time2.minutes;
+            sc= time1.seconds+time2.seconds;  
+            if (sc>60)
             {
                 //If Seconds is greater than 59 then minutes is incremented 
                 //And the New seconds is remainder of seconds after division by 60
-                newTime.minutes++;
-                newTime.seconds =newTime.seconds%60;
-                if (newTime.minutes>=59)
+                min++;
+                sc = sc % 60;
+                if (min>60)
                 {
                     //If Minutes is greater than 60 then hour is increamented and new Minutes is remainder of minutes after divison by 60
-                    newTime.hours++;
-                    newTime.minutes = newTime.minutes % 60;
-                    if (newTime.hours>=23)
+                    hr++;
+                    min = min % 60;
+                    if (hr >24)
                     {
-                        //If Hour is greater than 23 then is converted to 0 as per 24 hrs standards
-                        newTime.hours = 0;
+                        //If Hour is greater than 23 then is converted to remainder of 24 as per 24 hrs standards
+                        hr = hr % 24;
                     }
                 }
             }
-
+            newTime.hours = hr;
+            newTime.minutes = min;
+            newTime.seconds = sc;
             return newTime;
         }
         public String showTime()
@@ -92,8 +92,8 @@ namespace Lab7
             Console.WriteLine("1)Increment Time \n2)Add Two Times\n3)Exit !");
             //Choice whether the time is to be incremented or Added
             int choice = int.Parse(Console.ReadLine());
-            Time time = new Time(1,59,0);
-            Time time1 = new Time(1,0,1);
+            Time time = new Time(4,59,59);
+            Time time1 = new Time(0,1,2);
             Time time3 = time1 + time;
             switch (choice)
             {
@@ -105,10 +105,11 @@ namespace Lab7
                 case 2:
                     Console.WriteLine($"Time Object One :{time.showTime()}");
                     Console.WriteLine($"Time Object Two :{time1.showTime()}");
+                   
                     Console.WriteLine($"After Adding Them :{time3.showTime()} ");
                     break;
                 default:
-                    Console.WriteLine("Invlaid !!!");
+                    Console.WriteLine("Invalid !!!");
                     break;
                
             }
