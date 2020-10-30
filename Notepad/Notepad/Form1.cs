@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,6 +66,55 @@ namespace Notepad
             {
                 
             }
+        }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Opens The Font Selection Dialog Box 
+            fontDialog1.ShowDialog();
+            //Applied the Font to the selected text !
+            textArea.SelectionFont = new Font(fontDialog1.Font.FontFamily,fontDialog1.Font.Size,fontDialog1.Font.Style);
+            
+        }
+
+        private void colorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Opens the Color Dialog Box with Full Settings
+            colorDialog1.FullOpen = true;
+            //If Ok Button is pressed, then the selected color is applied to the font
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textArea.ForeColor = colorDialog1.Color;
+            }
+        }
+
+        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textArea.SelectAll();
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Copis the Selected Contends 
+            textArea.Copy();
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Pasted the Contends to the Notepad Writing Area !
+            textArea.Paste();
+        }
+
+        private void open_Click(object sender, EventArgs e)
+        {
+            //Check if the user Selects any Files and then Pasted the Contends of the file in the Notepad !
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                String fileName = openFileDialog1.FileName;
+                String fileContends = File.ReadAllText(fileName);
+                textArea.Text = fileContends;
+            }
+            
         }
     }
     }
