@@ -246,5 +246,40 @@ namespace Notepad
         {
             richTextBox1.Redo();
         }
+
+        private void wordWrapToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (wordWrapToolStripMenuItem.Checked==false)
+            {
+                wordWrapToolStripMenuItem.Checked = true;
+                richTextBox1.WordWrap = true;
+            }
+            else
+            {
+                wordWrapToolStripMenuItem.Checked = false;
+                richTextBox1.WordWrap = false;
+            }
+        }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FontDialog fontDialog=new FontDialog())
+            {
+                if (fontDialog.ShowDialog()==DialogResult.OK)
+                {
+                    richTextBox1.Font = new Font(fontDialog.Font.FontFamily, fontDialog.Font.Size, fontDialog.Font.Style);
+                }
+            }
+        }
+
+        private void highlightTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectionBackColor = Color.Yellow;
+        }
+
+        private void findToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
