@@ -8,3 +8,5 @@ C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.csp
 C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.exe
 C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.Form2.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Notepad\Notepad\obj\Debug\Notepad.Replace.resources

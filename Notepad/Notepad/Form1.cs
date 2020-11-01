@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Printing;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -51,7 +45,7 @@ namespace Notepad
                 //If the search box is not empty then we can search whatever that is written in the notepad
                 String queryString = "http://www.google.com.au/search?q=";
                 //A Chrome Process is initiated !, Second parameter is the Query String 
-                System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe", queryString+richTextBox1.Text.Replace(' ','+'));
+                System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe", queryString + richTextBox1.Text.Replace(' ', '+'));
             }
         }
         //Cut Action
@@ -77,7 +71,7 @@ namespace Notepad
         //Checks whether there is a change in the text of the notepad !
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (richTextBox1.Text.Length>0)
+            if (richTextBox1.Text.Length > 0)
             {
                 /*
                 By Default Cut,copy find,replace and paste options are 
@@ -99,10 +93,10 @@ namespace Notepad
         private void colorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             colorDialog1.FullOpen = true;
-            if (colorDialog1.ShowDialog()==DialogResult.OK)
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 richTextBox1.ForeColor = colorDialog1.Color;
-                
+
             }
         }
         //Opens File Using The OpenFile Dialog Box !
@@ -111,13 +105,13 @@ namespace Notepad
             //Opening the Dialog Box with Filter(s) of Txt Files
             //Filter Applied to Only Show The .txt Files !
             //Cannot Select Multiple Files !
-            using (OpenFileDialog openFileDialog=new OpenFileDialog() {Filter="Text Document|*.txt",ValidateNames=true,Multiselect=false })
+            using (OpenFileDialog openFileDialog = new OpenFileDialog() { Filter = "Text Document|*.txt", ValidateNames = true, Multiselect = false })
             {
                 //If Ok Button is pressed then, the selected file will be Opened!
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     //Reading the file 
-                    using (StreamReader stream=new StreamReader(openFileDialog.FileName))
+                    using (StreamReader stream = new StreamReader(openFileDialog.FileName))
                     {
                         //assigning the path string variable to the path of the file !
                         path = openFileDialog.FileName;
@@ -203,8 +197,8 @@ namespace Notepad
             }
             else
             {
-                DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Exit ?","Save ?",MessageBoxButtons.YesNo);
-                if (dialogResult==DialogResult.Yes)
+                DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Exit ?", "Save ?", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
                 {
                     save();
                     System.Environment.Exit(0);
@@ -213,59 +207,64 @@ namespace Notepad
                 {
                     System.Environment.Exit(0);
                 }
-                
+
             }
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //This Inidcates, whether the file has been saved or not !
             if (saved)
             {
                 richTextBox1.Text = "";
             }
+            //If the file is not saved, then it shows a prompt to save the file (Yes or No ?)
             else
             {
-                DialogResult dialogResult = MessageBox.Show("Save The File Before CLosing ?", "Save ?", MessageBoxButtons.YesNo);
+                //Shows the dialog box to save the file 
+                DialogResult dialogResult = MessageBox.Show("Save The File Before Closing ?", "Save ?", MessageBoxButtons.YesNo);
+                //If yes Save the File
                 if (dialogResult == DialogResult.Yes)
                 {
                     save();
                     richTextBox1.Text = "";
                 }
+                //Otherwise empty the textfield and show a null String !
                 else if (dialogResult == DialogResult.No)
                 {
                     richTextBox1.Text = "";
                 }
             }
         }
-
+        //Shows the print Dialog Box !
         private void printToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (PrintDialog printDialog=new PrintDialog())
+            using (PrintDialog printDialog = new PrintDialog())
             {
                 PrintDocument printDocument = new PrintDocument();
-               
+
                 printDialog.Document = printDocument;
-                
-                if (printDialog.ShowDialog()==DialogResult.OK)
+
+                if (printDialog.ShowDialog() == DialogResult.OK)
                 {
                     printDocument.Print();
                 }
             }
         }
-
+        //undo Operation on the textBox 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Undo();
         }
-
+        //Redo Operation on the textBox !
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Redo();
         }
-
+        //Word Wrap will be Enabled if is turned off and it will be enabled if the word wrap is turned on 
         private void wordWrapToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (wordWrapToolStripMenuItem.Checked==false)
+            if (wordWrapToolStripMenuItem.Checked == false)
             {
                 wordWrapToolStripMenuItem.Checked = true;
                 richTextBox1.WordWrap = true;
@@ -276,37 +275,101 @@ namespace Notepad
                 richTextBox1.WordWrap = false;
             }
         }
-
+        //Opens the Font Dialog Box ,and if the Ok Button is Pressed then  the Selected FOnt ois Applied !
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (FontDialog fontDialog=new FontDialog())
+            using (FontDialog fontDialog = new FontDialog())
             {
-                if (fontDialog.ShowDialog()==DialogResult.OK)
+                if (fontDialog.ShowDialog() == DialogResult.OK)
                 {
                     richTextBox1.Font = new Font(fontDialog.Font.FontFamily, fontDialog.Font.Size, fontDialog.Font.Style);
                 }
             }
         }
-
+        //Highlights the Selected text !
         private void highlightTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.SelectionBackColor = Color.Yellow;
         }
 
-       
-
+        //Prints the Current Date and Time on to The Rich text Box !
         private void timeAndDateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             String DateTimeInfo = $"Current Date :  {DateTime.Now.DayOfWeek.ToString()},  {DateTime.Now.Day.ToString()}/{DateTime.Now.Month}/{DateTime.Now.Year.ToString()}" +
                 $"\nCurrent Time : {DateTime.Now.Hour}:{DateTime.Now.Minute}:{DateTime.Now.Second}";
             richTextBox1.Text = DateTimeInfo;
         }
+        //Dialog box to find the substring in the textBox String !
         private void findToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form2 form2 = new Form2();
+            if (form2.ShowDialog() == DialogResult.OK)
+            {
+                if (richTextBox1.Text.Contains(form2.getText()))
+                {
+                    richTextBox1.Select(richTextBox1.Text.IndexOf(form2.getText()[0]), form2.getText().Length);
+
+                }
+                else
+                {
+                    MessageBox.Show("No Such String Found !");
+                }
+            }
         }
+        //Dialog box to find and replace  the substring in the textBox String !
         private void replaceToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Replace replace = new Replace();
+            replace.ShowDialog();
 
+            if (replace.DialogResult == DialogResult.OK)
+            {
+                if (replace.radioSelect() == 2)
+                {
+                    String text = richTextBox1.SelectedText;
+                    
+
+                    if (richTextBox1.Text.Contains(replace.getStringFind()))
+                    {
+                        String newText = text.Replace(replace.getStringFind(), replace.getStringReplace());
+                        richTextBox1.Text = newText;
+                    }
+                    else
+                    {
+
+                        MessageBox.Show("No Such String Found !");
+                    }
+                }
+                else
+                {
+                    if (richTextBox1.Text.Contains(replace.getStringFind()))
+                    {
+                        String newText = richTextBox1.Text.Replace(replace.getStringFind(), replace.getStringReplace());
+                        richTextBox1.Text = newText;
+                    }
+                    else
+                    {
+
+                        MessageBox.Show("No Such String Found !");
+                    }
+                }
+            }
+            else if (replace.DialogResult == DialogResult.Yes)
+            {//Similar to Find Operation !
+              
+                    if (richTextBox1.Text.Contains(replace.getStringFind()))
+                    {
+                        richTextBox1.Select(richTextBox1.Text.IndexOf(replace.getStringFind()[0]), replace.getStringFind().Length);
+
+                    }
+                    //Shows This Message if There is No Target Text !
+                    else
+                    {
+                        MessageBox.Show("No Such String Found !");
+                    }
+                
+            }
         }
     }
-}
+    }
+
