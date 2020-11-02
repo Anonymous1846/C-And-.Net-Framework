@@ -34,8 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.repaceBtb = new System.Windows.Forms.Button();
             this.find = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.selectedOnly = new System.Windows.Forms.RadioButton();
+            this.all = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -94,36 +94,36 @@
             this.find.Text = "Find";
             this.find.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // selectedOnly
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(172, 238);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(87, 21);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Selection";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.Checked = true;
+            this.selectedOnly.AutoSize = true;
+            this.selectedOnly.Checked = true;
+            this.selectedOnly.Location = new System.Drawing.Point(172, 238);
+            this.selectedOnly.Name = "selectedOnly";
+            this.selectedOnly.Size = new System.Drawing.Size(87, 21);
+            this.selectedOnly.TabIndex = 6;
+            this.selectedOnly.TabStop = true;
+            this.selectedOnly.Text = "Selection";
+            this.selectedOnly.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // all
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(313, 238);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(44, 21);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "All";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.all.AutoSize = true;
+            this.all.Location = new System.Drawing.Point(313, 238);
+            this.all.Name = "all";
+            this.all.Size = new System.Drawing.Size(44, 21);
+            this.all.TabIndex = 7;
+            this.all.TabStop = true;
+            this.all.Text = "All";
+            this.all.UseVisualStyleBackColor = true;
             // 
             // Replace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 323);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.all);
+            this.Controls.Add(this.selectedOnly);
             this.Controls.Add(this.find);
             this.Controls.Add(this.repaceBtb);
             this.Controls.Add(this.label2);
@@ -131,8 +131,7 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Replace";
-            this.Text = " ";
-            this.Load += new System.EventHandler(this.Replace_Load);
+            this.Text = " Replace";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,7 +145,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button repaceBtb;
         private System.Windows.Forms.Button find;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton selectedOnly;
+        private System.Windows.Forms.RadioButton all;
     }
 }

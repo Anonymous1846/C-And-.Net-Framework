@@ -197,7 +197,7 @@ namespace Notepad
             }
             else
             {
-                DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Exit ?", "Save ?", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show("Are You Sure You Want To Save Before Exit ?", "Save ?", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     save();
@@ -312,7 +312,7 @@ namespace Notepad
                 }
                 else
                 {
-                    MessageBox.Show("No Such String Found !");
+                    MessageBox.Show("No Such String Found !", "String Not Found");
                 }
             }
         }
@@ -324,22 +324,33 @@ namespace Notepad
 
             if (replace.DialogResult == DialogResult.OK)
             {
+                //If 2 is returned then it means that we have to replace the string !
                 if (replace.radioSelect() == 2)
                 {
+                    //Checks for selected String only and not whole
                     String text = richTextBox1.SelectedText;
-                    
 
-                    if (richTextBox1.Text.Contains(replace.getStringFind()))
+                    if (string.IsNullOrEmpty(text))
                     {
-                        String newText = text.Replace(replace.getStringFind(), replace.getStringReplace());
-                        richTextBox1.Text = newText;
+                        MessageBox.Show("Nothing Selected !","Null Selection !");
                     }
                     else
                     {
+                       
+                        //Replaces the text 
+                        if (richTextBox1.Text.Contains(replace.getStringFind()))
+                        {
+                            String newText = text.Replace(replace.getStringFind(), replace.getStringReplace());
+                            richTextBox1.Text = richTextBox1.Text.Replace(text, newText);
+                        }
+                        else
+                        {
 
-                        MessageBox.Show("No Such String Found !");
+                            MessageBox.Show("No Such String Found !", "String Not Found");
+                        }
                     }
                 }
+                //Below Block of code replaces the old string with new String on A Global Level ,rather than based on selection!
                 else
                 {
                     if (richTextBox1.Text.Contains(replace.getStringFind()))
@@ -350,7 +361,7 @@ namespace Notepad
                     else
                     {
 
-                        MessageBox.Show("No Such String Found !");
+                        MessageBox.Show("No Such String Found !", "String Not Found");
                     }
                 }
             }
@@ -365,9 +376,28 @@ namespace Notepad
                     //Shows This Message if There is No Target Text !
                     else
                     {
-                        MessageBox.Show("No Such String Found !");
+                        MessageBox.Show("No Such String Found !","String Not Found");
                     }
                 
+            }
+        }
+
+       
+        //Enabling and Disabling the Dark Mode in Notepad
+        private void darkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //If Enabled then Disable !
+            if (darkModeToolStripMenuItem.Checked)
+            {
+                darkModeToolStripMenuItem.Checked = false;
+                richTextBox1.ForeColor = Color.Black;
+                richTextBox1.BackColor = Color.White;
+            }
+            else
+            {
+                darkModeToolStripMenuItem.Checked = true;
+                richTextBox1.ForeColor = Color.White;
+                richTextBox1.BackColor = Color.Black;
             }
         }
     }

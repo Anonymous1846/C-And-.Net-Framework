@@ -16,26 +16,27 @@ namespace Notepad
         {
             InitializeComponent();
         }
-
-        private void Replace_Load(object sender, EventArgs e)
-        {
-
-        }
+        //Getting The Text From The Find Box 
+       
         public String getStringFind()
         {
             return richTextBox1.Text;
         }
+        //get The String Form The Replace text Box 
         public String getStringReplace()
         {
             return richTextBox2.Text;
         }
+        //To Check Whether Which radio Button is Selected !
         public int radioSelect()
         {
-            if (radioButton2.Checked)
+            int val = 2;
+            //if Second radio Button is Selected Then 1 is retruned ,otheriwise by default 2 is resturned !
+            if (all.Checked)
             {
-                return 1;
+                val= 1;
             }
-            return 2; 
+            return val;
         }
     }
 }
