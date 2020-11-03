@@ -44,20 +44,12 @@
             this.plus = new System.Windows.Forms.Button();
             this.equals = new System.Windows.Forms.Button();
             this.zero = new System.Windows.Forms.Button();
-            this.resetBtn = new System.Windows.Forms.Button();
-            this.delBtn = new System.Windows.Forms.Button();
-            this.on = new System.Windows.Forms.RadioButton();
-            this.off = new System.Windows.Forms.RadioButton();
-            this.minus = new System.Windows.Forms.Button();
-            this.point = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ansLabel
             // 
             this.ansLabel.Location = new System.Drawing.Point(12, 12);
             this.ansLabel.Name = "ansLabel";
-            this.ansLabel.ReadOnly = true;
             this.ansLabel.Size = new System.Drawing.Size(318, 22);
             this.ansLabel.TabIndex = 0;
             // 
@@ -211,92 +203,11 @@
             this.zero.UseVisualStyleBackColor = true;
             this.zero.Click += new System.EventHandler(this.zero_Click);
             // 
-            // resetBtn
-            // 
-            this.resetBtn.Location = new System.Drawing.Point(12, 418);
-            this.resetBtn.Name = "resetBtn";
-            this.resetBtn.Size = new System.Drawing.Size(147, 57);
-            this.resetBtn.TabIndex = 17;
-            this.resetBtn.Text = "C/CE";
-            this.resetBtn.UseVisualStyleBackColor = true;
-            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
-            // 
-            // delBtn
-            // 
-            this.delBtn.Location = new System.Drawing.Point(183, 418);
-            this.delBtn.Name = "delBtn";
-            this.delBtn.Size = new System.Drawing.Size(60, 57);
-            this.delBtn.TabIndex = 18;
-            this.delBtn.Text = "Del";
-            this.delBtn.UseVisualStyleBackColor = true;
-            this.delBtn.Click += new System.EventHandler(this.delBtn_Click);
-            // 
-            // on
-            // 
-            this.on.AutoSize = true;
-            this.on.Location = new System.Drawing.Point(270, 418);
-            this.on.Name = "on";
-            this.on.Size = new System.Drawing.Size(48, 21);
-            this.on.TabIndex = 19;
-            this.on.TabStop = true;
-            this.on.Text = "On";
-            this.on.UseVisualStyleBackColor = true;
-            this.on.CheckedChanged += new System.EventHandler(this.on_CheckedChanged);
-            // 
-            // off
-            // 
-            this.off.AutoSize = true;
-            this.off.Location = new System.Drawing.Point(270, 453);
-            this.off.Name = "off";
-            this.off.Size = new System.Drawing.Size(48, 21);
-            this.off.TabIndex = 20;
-            this.off.TabStop = true;
-            this.off.Text = "Off";
-            this.off.UseVisualStyleBackColor = true;
-            this.off.CheckedChanged += new System.EventHandler(this.off_CheckedChanged);
-            // 
-            // minus
-            // 
-            this.minus.Location = new System.Drawing.Point(12, 481);
-            this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(59, 54);
-            this.minus.TabIndex = 22;
-            this.minus.Text = "-/+";
-            this.minus.UseVisualStyleBackColor = true;
-            this.minus.Click += new System.EventHandler(this.minus_Click);
-            // 
-            // point
-            // 
-            this.point.Location = new System.Drawing.Point(99, 481);
-            this.point.Name = "point";
-            this.point.Size = new System.Drawing.Size(144, 54);
-            this.point.TabIndex = 23;
-            this.point.Text = ".";
-            this.point.UseVisualStyleBackColor = true;
-            this.point.Click += new System.EventHandler(this.point_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(270, 481);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 17);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Calculator";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 543);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.point);
-            this.Controls.Add(this.minus);
-            this.Controls.Add(this.off);
-            this.Controls.Add(this.on);
-            this.Controls.Add(this.delBtn);
-            this.Controls.Add(this.resetBtn);
+            this.ClientSize = new System.Drawing.Size(354, 419);
             this.Controls.Add(this.plus);
             this.Controls.Add(this.equals);
             this.Controls.Add(this.zero);
@@ -314,7 +225,7 @@
             this.Controls.Add(this.one);
             this.Controls.Add(this.ansLabel);
             this.Name = "Form1";
-            this.Text = "Calculator";
+            this.Text = "lab 8";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,13 +249,6 @@
         private System.Windows.Forms.Button plus;
         private System.Windows.Forms.Button equals;
         private System.Windows.Forms.Button zero;
-        private System.Windows.Forms.Button resetBtn;
-        private System.Windows.Forms.Button delBtn;
-        private System.Windows.Forms.RadioButton on;
-        private System.Windows.Forms.RadioButton off;
-        private System.Windows.Forms.Button minus;
-        private System.Windows.Forms.Button point;
-        private System.Windows.Forms.Label label2;
     }
 }
 

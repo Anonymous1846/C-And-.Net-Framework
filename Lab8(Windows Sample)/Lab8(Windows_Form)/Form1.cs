@@ -179,14 +179,14 @@ namespace Lab8_Windows_Form_
             plus.Enabled = false;
             mul.Enabled = false;
             div.Enabled = false;
-            minus.Enabled = false;
+          /*  minus.Enabled = false;
             sub.Enabled = false;
             zero.Enabled = false;
             point.Enabled = false;
             equals.Enabled = false;
             delBtn.Enabled = false;
             resetBtn.Enabled = false;
-            on.Enabled = true;
+            on.Enabled = true;*/
         }
         private void enableCal()
         {
@@ -203,14 +203,14 @@ namespace Lab8_Windows_Form_
             plus.Enabled = true;
             mul.Enabled = true;
             div.Enabled = true;
-            minus.Enabled = true;
+          /*  minus.Enabled = true;
             sub.Enabled = true;
             zero.Enabled = true;
             point.Enabled = true;
             equals.Enabled = true;
             delBtn.Enabled = true;
             resetBtn.Enabled = true;
-            on.Enabled = false;
+            on.Enabled = false;*/
         }
     }
     

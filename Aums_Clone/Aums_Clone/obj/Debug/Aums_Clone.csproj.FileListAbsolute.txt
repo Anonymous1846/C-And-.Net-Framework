@@ -1,0 +1,10 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\bin\Debug\Aums_Clone.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\bin\Debug\Aums_Clone.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\bin\Debug\Aums_Clone.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Aums_Clone\Aums_Clone\obj\Debug\Aums_Clone.pdb
