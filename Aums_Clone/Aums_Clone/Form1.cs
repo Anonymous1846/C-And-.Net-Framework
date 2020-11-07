@@ -17,17 +17,7 @@ namespace Aums_Clone
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-
-
-        //Used for Retriving the Semester details 
-
+       
 
     }
 }
