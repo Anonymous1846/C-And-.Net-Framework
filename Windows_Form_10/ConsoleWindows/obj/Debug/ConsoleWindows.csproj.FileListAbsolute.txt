@@ -1,0 +1,7 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\bin\Debug\ConsoleWindows.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\bin\Debug\ConsoleWindows.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\bin\Debug\ConsoleWindows.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\obj\Debug\ConsoleWindows.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\obj\Debug\ConsoleWindows.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\obj\Debug\ConsoleWindows.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\ConsoleWindows\obj\Debug\ConsoleWindows.pdb

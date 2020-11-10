@@ -25,7 +25,8 @@ namespace DateTimeLabel
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            dateTimePicker1 = new DateTimePicker();
+            label1.Text = dateTimePicker1.Value.Date;
         }
     }
 }
