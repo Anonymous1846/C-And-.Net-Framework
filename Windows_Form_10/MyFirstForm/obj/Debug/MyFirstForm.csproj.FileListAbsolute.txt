@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\bin\Debug\MyFirstForm.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\bin\Debug\MyFirstForm.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\bin\Debug\MyFirstForm.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\MyFirstForm\obj\Debug\MyFirstForm.pdb
