@@ -1,0 +1,10 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\bin\Debug\DateTimeLabel.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\bin\Debug\DateTimeLabel.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\bin\Debug\DateTimeLabel.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\DateTimeLabel\obj\Debug\DateTimeLabel.pdb

@@ -160,6 +160,40 @@ namespace Aums_Clone
 
             }
         }
+
+        private void semester_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = semester.SelectedIndex;
+            if (index==0)
+            {
+                registerList.Items.Clear();
+                registerList.Items.AddRange(new object[] {
+                         "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
+                        "\tCS12\t\tC Programminge\t4\tJ\tY/N",
+                        "\tCS22\t\tCTPS\t3\tT\tY/N",
+                        "\tC221\t\tScratch Programming\tJ\tY/N",
+                        "\tC900\t\tComputer Essentials 4\tJ\tY/N"
+                });
+            }
+            else if (index == 1)
+            {
+                registerList.Items.Clear();
+                registerList.Items.AddRange(new object[] { "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
+                        "\tCS12\t\tR Programminge\t4\tJ\tY/N",
+                        "\tCS22\t\tAVP Education\t3\tT\tY/N",
+                        "\tC221\t\tAccountancy And Mng\tJ\tY/N",
+                        "\tC900\t\tComputer Programming 4\tJ\tY/N" }); 
+            }
+            else if (index ==2)
+            {
+                registerList.Items.Clear();
+                registerList.Items.AddRange(new object[] { "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
+                        "\tCS12\t\tPython Programminge\t4\tJ\tY/N",
+                        "\tCS22\t\tSDLC Lifecycle\t3\tT\tY/N",
+                        "\tC221\t\tEconomics and Law\tJ\tY/N",
+                        "\tC900\t\tHistory And Geography 4\tJ\tY/N" });
+            }
+        }
     }
 
 }

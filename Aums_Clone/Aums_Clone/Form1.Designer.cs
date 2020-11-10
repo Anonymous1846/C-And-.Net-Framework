@@ -38,8 +38,8 @@ namespace Aums_Clone
             this.registeredList = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.type = new System.Windows.Forms.ComboBox();
+            this.semester = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -64,10 +64,10 @@ namespace Aums_Clone
             this.registerList.FormattingEnabled = true;
             this.registerList.Items.AddRange(new object[] {
             "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
-            "\tCS12\tC Programminge\t4\tJ\tY/N",
-            "\tCS22\tSoftware\t3\tSlot\tY/N",
-            "\tC221tC++ Progarmming\t4\tSlot\tY/N",
-            "\tC900\tComputer Networks\t4\tJ\tY/N"});
+            "\tCS12\t\tC Programminge\t4\tJ\tY/N",
+            "\tCS22\t\tSoftware\t3\tT\tY/N",
+            "\tC221\t\tC++ Progarmming\tJ\tY/N",
+            "\tC900\t\tComputer Networks4\tJ\tY/N"});
             this.registerList.Location = new System.Drawing.Point(6, 11);
             this.registerList.Name = "registerList";
             this.registerList.Size = new System.Drawing.Size(566, 395);
@@ -114,21 +114,34 @@ namespace Aums_Clone
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // comboBox3
+            // type
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(658, 47);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
-            this.comboBox3.TabIndex = 4;
+            this.type.FormattingEnabled = true;
+            this.type.Items.AddRange(new object[] {
+            "Regular",
+            "Redo",
+            "Supply"});
+            this.type.Location = new System.Drawing.Point(658, 47);
+            this.type.Name = "type";
+            this.type.Size = new System.Drawing.Size(121, 24);
+            this.type.TabIndex = 4;
             // 
-            // comboBox4
+            // semester
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(198, 47);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 24);
-            this.comboBox4.TabIndex = 5;
+            this.semester.DisplayMember = "1";
+            this.semester.FormattingEnabled = true;
+            this.semester.Items.AddRange(new object[] {
+            1,
+            2,
+            3,
+            4,
+            5,
+            6});
+            this.semester.Location = new System.Drawing.Point(198, 47);
+            this.semester.Name = "semester";
+            this.semester.Size = new System.Drawing.Size(121, 24);
+            this.semester.TabIndex = 5;
+            this.semester.SelectedIndexChanged += new System.EventHandler(this.semester_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -214,8 +227,8 @@ namespace Aums_Clone
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.semester);
+            this.Controls.Add(this.type);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.panel4);
@@ -254,22 +267,15 @@ namespace Aums_Clone
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewComboBoxColumn Column7;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+     
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.CheckedListBox registerList;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.ListBox registeredList;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox type;
+        private System.Windows.Forms.ComboBox semester;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
