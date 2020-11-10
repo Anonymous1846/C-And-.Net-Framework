@@ -16,5 +16,14 @@ namespace NameApp
         {
             InitializeComponent();
         }
+
+        private void showBtn_Click(object sender, EventArgs e)
+        {
+            String name = inputName.Text;
+            name= name.ToUpper();
+            nameDisplay.Visible = true;
+            nameDisplay.Text = name;
+            MessageBox.Show("The Capitalized Version is "+name,"Capitalized Version");
+        }
     }
 }

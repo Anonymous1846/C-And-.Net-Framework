@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\bin\Debug\RightOrLeft.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\bin\Debug\RightOrLeft.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\bin\Debug\RightOrLeft.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.pdb

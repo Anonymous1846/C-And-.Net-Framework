@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\bin\Debug\NameApp.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\bin\Debug\NameApp.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\bin\Debug\NameApp.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\NameApp\obj\Debug\NameApp.pdb

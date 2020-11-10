@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B8E3927-54CC-4ABD-AA66-C423F15D25E1}</ProjectGuid>
+    <ProjectGuid>{2F8FA159-46C3-4EB1-8B12-85115A62B876}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NameApp</RootNamespace>
-    <AssemblyName>NameApp</AssemblyName>
+    <RootNamespace>RightOrLeft</RootNamespace>
+    <AssemblyName>RightOrLeft</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
