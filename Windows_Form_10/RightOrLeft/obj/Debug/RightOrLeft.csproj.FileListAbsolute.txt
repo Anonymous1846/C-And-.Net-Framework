@@ -7,3 +7,4 @@ C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.exe
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\RightOrLeft\obj\Debug\RightOrLeft.csprojAssemblyReference.cache

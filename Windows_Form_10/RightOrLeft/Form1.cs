@@ -17,9 +17,13 @@ namespace RightOrLeft
             InitializeComponent();
         }
 
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        
+
+        
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
         {
-            if (e.Button==MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 dynamic.Visible = true;
                 dynamic.Text = "Left Mouse Button Pressed !";
