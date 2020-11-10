@@ -1,0 +1,10 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\bin\Debug\AddressInfo.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\bin\Debug\AddressInfo.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\bin\Debug\AddressInfo.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\AddressInfo\obj\Debug\AddressInfo.pdb
