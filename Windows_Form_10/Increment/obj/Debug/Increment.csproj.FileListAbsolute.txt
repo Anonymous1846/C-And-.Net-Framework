@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\bin\Debug\Increment.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\bin\Debug\Increment.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\bin\Debug\Increment.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_10\Increment\obj\Debug\Increment.pdb
