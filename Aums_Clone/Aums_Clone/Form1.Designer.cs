@@ -44,15 +44,17 @@ namespace Aums_Clone
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.regBtn = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
+            this.roll = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.registerList);
             this.panel3.Location = new System.Drawing.Point(12, 122);
             this.panel3.Name = "panel3";
@@ -63,11 +65,7 @@ namespace Aums_Clone
             // 
             this.registerList.FormattingEnabled = true;
             this.registerList.Items.AddRange(new object[] {
-            "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
-            "\tCS12\t\tC Programminge\t4\tJ\tY/N",
-            "\tCS22\t\tSoftware\t3\tT\tY/N",
-            "\tC221\t\tC++ Progarmming\tJ\tY/N",
-            "\tC900\t\tComputer Networks4\tJ\tY/N"});
+            "Select\tCourse Code\tCourse Name\t\tCredits\tSlot\tAudit"});
             this.registerList.Location = new System.Drawing.Point(6, 11);
             this.registerList.Name = "registerList";
             this.registerList.Size = new System.Drawing.Size(566, 395);
@@ -75,6 +73,7 @@ namespace Aums_Clone
             // 
             // panel4
             // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.registeredList);
             this.panel4.Location = new System.Drawing.Point(658, 122);
             this.panel4.Name = "panel4";
@@ -95,6 +94,8 @@ namespace Aums_Clone
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(600, 300);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 50);
@@ -106,6 +107,8 @@ namespace Aums_Clone
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(600, 230);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 50);
@@ -181,31 +184,35 @@ namespace Aums_Clone
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(18, 13);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(328, 17);
+            this.label12.Size = new System.Drawing.Size(151, 17);
             this.label12.TabIndex = 9;
-            this.label12.Text = "Roll:                            AM.SC.U3CSC18046";
+            this.label12.Text = "Roll:                      ";
             // 
-            // button5
+            // saveBtn
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button5.Location = new System.Drawing.Point(658, 557);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(85, 29);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Save";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.saveBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.saveBtn.FlatAppearance.BorderSize = 0;
+            this.saveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.saveBtn.Location = new System.Drawing.Point(658, 557);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(85, 29);
+            this.saveBtn.TabIndex = 10;
+            this.saveBtn.Text = "Save";
+            this.saveBtn.UseVisualStyleBackColor = false;
+            this.saveBtn.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // regBtn
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button6.Location = new System.Drawing.Point(761, 557);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(157, 29);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Regsitered Courses";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.regBtn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.regBtn.FlatAppearance.BorderSize = 0;
+            this.regBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.regBtn.Location = new System.Drawing.Point(761, 557);
+            this.regBtn.Name = "regBtn";
+            this.regBtn.Size = new System.Drawing.Size(157, 29);
+            this.regBtn.TabIndex = 11;
+            this.regBtn.Text = "Regsitered Courses";
+            this.regBtn.UseVisualStyleBackColor = false;
+            this.regBtn.Click += new System.EventHandler(this.button6_Click);
             // 
             // label13
             // 
@@ -217,12 +224,23 @@ namespace Aums_Clone
             this.label13.TabIndex = 12;
             this.label13.Text = "Registration Type";
             // 
+            // roll
+            // 
+            this.roll.AutoSize = true;
+            this.roll.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roll.Location = new System.Drawing.Point(198, 12);
+            this.roll.Name = "roll";
+            this.roll.Size = new System.Drawing.Size(69, 17);
+            this.roll.TabIndex = 13;
+            this.roll.Text = "Dynamic";
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(1262, 598);
+            this.Controls.Add(this.roll);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.regBtn);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -280,9 +298,10 @@ namespace Aums_Clone
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button regBtn;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label roll;
     }
    
 }

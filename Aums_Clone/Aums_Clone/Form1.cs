@@ -17,7 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.Windows.Forms;
-
+using MySql.Data.MySqlClient;
 
 
 namespace Aums_Clone
@@ -28,7 +28,7 @@ namespace Aums_Clone
 
     {
 
-        ArrayList arrayList;
+        ArrayList arrayList,arrayListOfSubjects;
 
         public Form1()
 
@@ -129,7 +129,9 @@ namespace Aums_Clone
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(arrayListOfSubjects.Count+"");
+           
+            /*
             String data = "";
 
             foreach (String i in arrayList)
@@ -158,40 +160,30 @@ namespace Aums_Clone
 
                 MessageBox.Show(data, "The Chosen Courses !");
 
-            }
+            }*/
         }
 
         private void semester_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int index = semester.SelectedIndex;
-            if (index==0)
+            arrayListOfSubjects = new ArrayList();
+            try
             {
-                registerList.Items.Clear();
-                registerList.Items.AddRange(new object[] {
-                         "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
-                        "\tCS12\t\tC Programminge\t4\tJ\tY/N",
-                        "\tCS22\t\tCTPS\t3\tT\tY/N",
-                        "\tC221\t\tScratch Programming\tJ\tY/N",
-                        "\tC900\t\tComputer Essentials 4\tJ\tY/N"
-                });
+                //Establishing the MySql Connction 
+                MySqlConnection mySqlConnection = new MySqlConnection("server=localhost;database=aums;uid=root;pwd=MySql@2546");
+                ///Opening the connection 
+                mySqlConnection.Open();
+                String select_statement = "select name from courses;";
+                MySqlCommand mySqlCommand = new MySqlCommand(select_statement, mySqlConnection);
+                MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+                while (mySqlDataReader.Read())
+                {
+                    arrayListOfSubjects.Add(mySqlDataReader["name"].ToString());
+                }
+
             }
-            else if (index == 1)
+            catch (Exception exception)
             {
-                registerList.Items.Clear();
-                registerList.Items.AddRange(new object[] { "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
-                        "\tCS12\t\tR Programminge\t4\tJ\tY/N",
-                        "\tCS22\t\tAVP Education\t3\tT\tY/N",
-                        "\tC221\t\tAccountancy And Mng\tJ\tY/N",
-                        "\tC900\t\tComputer Programming 4\tJ\tY/N" }); 
-            }
-            else if (index ==2)
-            {
-                registerList.Items.Clear();
-                registerList.Items.AddRange(new object[] { "Select\tCourse Code\tCourse Name\tCredits\tSlot\tAudit",
-                        "\tCS12\t\tPython Programminge\t4\tJ\tY/N",
-                        "\tCS22\t\tSDLC Lifecycle\t3\tT\tY/N",
-                        "\tC221\t\tEconomics and Law\tJ\tY/N",
-                        "\tC900\t\tHistory And Geography 4\tJ\tY/N" });
+                MessageBox.Show("Nope", "Nope" + exception.Message, MessageBoxButtons.OK);
             }
         }
     }
