@@ -7,3 +7,4 @@ C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debu
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.csproj.CoreCompileInputs.cache
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.exe
 C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.csprojAssemblyReference.cache

@@ -40,7 +40,7 @@
             // 
             this.systemRunningLabel.AutoSize = true;
             this.systemRunningLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.systemRunningLabel.Location = new System.Drawing.Point(13, 77);
+            this.systemRunningLabel.Location = new System.Drawing.Point(16, 113);
             this.systemRunningLabel.Name = "systemRunningLabel";
             this.systemRunningLabel.Size = new System.Drawing.Size(125, 17);
             this.systemRunningLabel.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             this.appRunningLabel.AutoSize = true;
             this.appRunningLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appRunningLabel.Location = new System.Drawing.Point(13, 151);
+            this.appRunningLabel.Location = new System.Drawing.Point(16, 161);
             this.appRunningLabel.Name = "appRunningLabel";
             this.appRunningLabel.Size = new System.Drawing.Size(101, 17);
             this.appRunningLabel.TabIndex = 1;
@@ -92,6 +92,7 @@
             this.Controls.Add(this.systemRunningLabel);
             this.Name = "Form1";
             this.Text = "Tick Counter";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
