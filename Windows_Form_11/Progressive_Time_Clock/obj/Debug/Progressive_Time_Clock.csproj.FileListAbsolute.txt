@@ -1,0 +1,10 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\bin\Debug\Progressive_Time_Clock.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\bin\Debug\Progressive_Time_Clock.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\bin\Debug\Progressive_Time_Clock.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Progressive_Time_Clock\obj\Debug\Progressive_Time_Clock.pdb

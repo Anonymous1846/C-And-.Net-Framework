@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\bin\Debug\Tick Counter.exe.config
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\bin\Debug\Tick Counter.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\bin\Debug\Tick Counter.pdb
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick_Counter.Form1.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick_Counter.Properties.Resources.resources
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.exe
+C:\Users\USER\Documents\Workspace\C # .Net\Windows_Form_11\Tick Counter\obj\Debug\Tick Counter.pdb
