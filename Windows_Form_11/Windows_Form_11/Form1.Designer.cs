@@ -1,4 +1,6 @@
-﻿namespace Windows_Form_11
+﻿using System.Windows.Forms;
+
+namespace Windows_Form_11
 {
     partial class Form1
     {
@@ -252,7 +254,8 @@
             this.backColor.Size = new System.Drawing.Size(100, 22);
             this.backColor.TabIndex = 15;
             this.backColor.Text = "#0000FF";
-            this.backColor.TextChanged += new System.EventHandler(this.backColor_TextChanged);
+            
+            this.backColor.KeyDown += new System.Windows.Forms.KeyEventHandler(this.backColor_KeyDown);
             // 
             // textColor
             // 
@@ -304,7 +307,6 @@
             this.redScroll.Name = "redScroll";
             this.redScroll.Size = new System.Drawing.Size(35, 240);
             this.redScroll.TabIndex = 21;
-            this.redScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.redScroll_Scroll);
             // 
             // greenScroll
             // 
@@ -312,7 +314,6 @@
             this.greenScroll.Name = "greenScroll";
             this.greenScroll.Size = new System.Drawing.Size(35, 240);
             this.greenScroll.TabIndex = 22;
-            this.greenScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.greenScroll_Scroll);
             // 
             // blueScroll
             // 
@@ -320,41 +321,44 @@
             this.blueScroll.Name = "blueScroll";
             this.blueScroll.Size = new System.Drawing.Size(35, 240);
             this.blueScroll.TabIndex = 23;
-            this.blueScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.blueScroll_Scroll);
             // 
             // prev1
             // 
             this.prev1.AutoSize = true;
+            this.prev1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prev1.Location = new System.Drawing.Point(30, 294);
             this.prev1.Name = "prev1";
-            this.prev1.Size = new System.Drawing.Size(134, 17);
+            this.prev1.Size = new System.Drawing.Size(176, 20);
             this.prev1.TabIndex = 24;
             this.prev1.Text = "Body Tag Formatter";
             // 
             // prev2
             // 
             this.prev2.AutoSize = true;
+            this.prev2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.prev2.Location = new System.Drawing.Point(30, 340);
             this.prev2.Name = "prev2";
-            this.prev2.Size = new System.Drawing.Size(131, 17);
+            this.prev2.Size = new System.Drawing.Size(177, 20);
             this.prev2.TabIndex = 25;
             this.prev2.Text = "Sample text As Link";
             // 
             // prev3
             // 
             this.prev3.AutoSize = true;
+            this.prev3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.prev3.Location = new System.Drawing.Point(30, 396);
             this.prev3.Name = "prev3";
-            this.prev3.Size = new System.Drawing.Size(127, 17);
+            this.prev3.Size = new System.Drawing.Size(171, 20);
             this.prev3.TabIndex = 26;
             this.prev3.Text = "Current Active Link";
             // 
             // prev4
             // 
             this.prev4.AutoSize = true;
+            this.prev4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold);
             this.prev4.Location = new System.Drawing.Point(30, 455);
             this.prev4.Name = "prev4";
-            this.prev4.Size = new System.Drawing.Size(143, 17);
+            this.prev4.Size = new System.Drawing.Size(190, 20);
             this.prev4.TabIndex = 27;
             this.prev4.Text = "Link has been Visited";
             // 
@@ -389,6 +393,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = " Body Tag Formatter";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
