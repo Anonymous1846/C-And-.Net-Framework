@@ -254,7 +254,6 @@ namespace Windows_Form_11
             this.backColor.Size = new System.Drawing.Size(100, 22);
             this.backColor.TabIndex = 15;
             this.backColor.Text = "#0000FF";
-            
             this.backColor.KeyDown += new System.Windows.Forms.KeyEventHandler(this.backColor_KeyDown);
             // 
             // textColor
@@ -307,6 +306,7 @@ namespace Windows_Form_11
             this.redScroll.Name = "redScroll";
             this.redScroll.Size = new System.Drawing.Size(35, 240);
             this.redScroll.TabIndex = 21;
+            this.redScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.redScroll_Scroll);
             // 
             // greenScroll
             // 
@@ -314,6 +314,7 @@ namespace Windows_Form_11
             this.greenScroll.Name = "greenScroll";
             this.greenScroll.Size = new System.Drawing.Size(35, 240);
             this.greenScroll.TabIndex = 22;
+            this.greenScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.greenScroll_Scroll);
             // 
             // blueScroll
             // 
@@ -321,6 +322,7 @@ namespace Windows_Form_11
             this.blueScroll.Name = "blueScroll";
             this.blueScroll.Size = new System.Drawing.Size(35, 240);
             this.blueScroll.TabIndex = 23;
+            this.blueScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.blueScroll_Scroll);
             // 
             // prev1
             // 

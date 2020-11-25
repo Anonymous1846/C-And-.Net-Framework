@@ -154,13 +154,117 @@ namespace Windows_Form_11
                 }
              }
         }
-        //Function to change the background color !
+        //Function to change the background color ! According to The Changing Background Color Property, When We Press the Enter Button in The 
+        //Textbox of The Back color !
         private void setBack()
         {
             prev1.BackColor = System.Drawing.ColorTranslator.FromHtml(backColor.Text);
             prev2.BackColor = System.Drawing.ColorTranslator.FromHtml(backColor.Text);
             prev3.BackColor = System.Drawing.ColorTranslator.FromHtml(backColor.Text);
             prev4.BackColor = System.Drawing.ColorTranslator.FromHtml(backColor.Text);
+        }
+
+        private void redScroll_Scroll(object sender, ScrollEventArgs e)
+        {
+            changeScrollBar(redScroll, red);
+            changeRedTextBox(redScroll,red);
+        }
+
+        private void greenScroll_Scroll(object sender, ScrollEventArgs e)
+        {
+            changeScrollBar(greenScroll, green);
+            changeGreenTextBox(greenScroll, green);
+        }
+
+        private void blueScroll_Scroll(object sender, ScrollEventArgs e)
+        {
+            changeScrollBar(blueScroll,blue);
+            changeBlueTextBox(blueScroll,blue);
+
+        }
+        //Used to Convert The Scroll bar (Value 0-255) to The Corresponding Hex Value 
+        private void changeScrollBar(ScrollBar scrollBar,TextBox textBox)
+        {
+            int val=(scrollBar.Value*255)/ 91;
+            textBox.Text = val.ToString("X2");
+        }
+        //This method is used to change The Text box corresponding The Radio Box Of The Body Attribute 
+        //Blue Color value of The Hex value will change according to The Change in Scroll(Greeen Scroll Bar)
+        private void changeBlueTextBox(ScrollBar scrollBar,TextBox textBox)
+        {
+            if (radioBack.Checked)
+            {
+                backColor.Text = backColor.Text.Substring(0, 5) + textBox.Text;
+            }
+            if (radioText.Checked)
+            {
+                textColor.Text = textColor.Text.Substring(0, 5) + textBox.Text;
+            }
+            if (radioLink.Checked)
+            {
+                linkColor.Text = linkColor.Text.Substring(0, 5) + textBox.Text;
+            }
+            if (radioActLink.Checked)
+            {
+                actColor.Text = actColor.Text.Substring(0, 5) + textBox.Text;
+            }
+            if (radioVisitLink.Checked)
+            {
+                vstColor.Text = vstColor.Text.Substring(0, 5) + textBox.Text;
+            }
+           
+        }
+        //This method is used to change The Text box corresponding The Radio Box Of The Body Attribute 
+        //Red Color value of The Hex value will change according to The Change in Scroll(Greeen Scroll Bar)
+        private void changeRedTextBox(ScrollBar scrollBar, TextBox textBox)
+        {
+            if (radioBack.Checked)
+            {
+                backColor.Text = "#"+red.Text+backColor.Text.Substring(3,4);
+            }
+            if (radioText.Checked)
+            {
+                textColor.Text = "#" + red.Text + textColor.Text.Substring(3, 4);
+            }
+            if (radioLink.Checked)
+            {
+                linkColor.Text = "#" + red.Text + linkColor.Text.Substring(3, 4);
+            }
+            if (radioActLink.Checked)
+            {
+                actColor.Text = "#" + red.Text + actColor.Text.Substring(3, 4);
+            }
+            if (radioVisitLink.Checked)
+            {
+                vstColor.Text = "#" + red.Text + vstColor.Text.Substring(3, 4);
+            }
+
+        }
+        //This method is used to change The Text box corresponding The Radio Box Of The Body Attribute 
+        //Greeen Color value of The Hex value will change according to The Change in Scroll(Greeen Scroll Bar)
+        private void changeGreenTextBox(ScrollBar scrollBar, TextBox textBox)
+        {
+            if (radioBack.Checked)
+            {
+                backColor.Text = backColor.Text.Substring(0, 3) + green.Text + backColor.Text.Substring(5,2);
+            }
+            if (radioText.Checked)
+            {
+                textColor.Text = textColor.Text.Substring(0, 3) + green.Text + textColor.Text.Substring(5, 2);
+            }
+            if (radioLink.Checked)
+            {
+                linkColor.Text = linkColor.Text.Substring(0, 3) + green.Text + linkColor.Text.Substring(5, 2);
+            }
+            if (radioActLink.Checked)
+            {
+                actColor.Text= actColor.Text.Substring(0, 3) + green.Text + actColor.Text.Substring(5, 2);
+            }
+            if (radioVisitLink.Checked)
+            {
+                vstColor.Text = vstColor.Text.Substring(0, 3) + green.Text + vstColor.Text.Substring(5, 2);
+            }
+
         }
     }
 }
