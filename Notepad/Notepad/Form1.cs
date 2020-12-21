@@ -137,6 +137,7 @@ namespace Notepad
                 using (StreamWriter stream = new StreamWriter(path))
                 {
                     stream.WriteLineAsync(richTextBox1.Text);
+
                 }
             }
             else
